@@ -1,17 +1,99 @@
-<<<<<<< HEAD
-# React + Vite
+📌 Personal Portfolio (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A one-page personal portfolio website built with React.js and Vite, styled with modern responsive design.
+The site showcases personal information, skills, projects, and a contact form.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# my-portfolio-in-react
-a portfolio page using react and javascript
->>>>>>> 0fdb567ad709d9badd8a53f4ccb46a81ebea84c4
+Navbar with smooth scrolling navigation
+
+About section with name, role, and bio
+
+Skills section displaying at least 5 skills as styled cards/badges
+
+Projects section with at least 3 projects (title, image, description)
+
+Contact form with validation (name, email, message)
+
+Responsive design for desktop and mobile
+
+Built with Vite + React for fast development
+
+
+---
+
+🛠 Tech Stack
+
+React.js (Frontend)
+
+Vite (Bundler & Dev Server)
+
+TailwindCSS / Custom CSS (Styling)
+
+JavaScript (ES6+)
+
+
+---
+
+📂 Project Structure
+
+```bash 
+my-portfolio/
+│── public/              # Static assets
+│── src/
+│   ├── components/      # Reusable components
+│   │   ├── Navbar.jsx
+│   │   ├── About.jsx
+│   │   ├── Skills.jsx
+│   │   ├── Projects.jsx
+│   │   ├── Contact.jsx
+│   ├── App.jsx          # Main app component
+│   ├── index.css        # Global styles
+│   └── main.jsx         # React entry point
+│── package.json
+│── vite.config.js
+│── README.md
+```
+---
+
+
+⚙️ Setup Instructions
+
+
+Clone the repository
+
+```bash 
+git clone https://github.com/your-username/my-portfolio.git
+cd my-portfolio
+```
+
+Install dependencies
+
+```bash 
+npm install
+```
+
+
+Run development server
+
+```bash 
+npm run dev
+```
+
+Build for production
+
+```bash
+npm run build
+```
+
+---
+
+
+📬 Contact
+    ahmed almakki
+    Email:ahmad.almakki22@gmail.com
+    GitHub:https://github.com/AhmedElmakki
+    linkedin:https://www.linkedin.com/in/ahmed-elmakki/
